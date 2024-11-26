@@ -1,1 +1,1 @@
-<?php system('ls /etc/shells'); ?>
+<?php system('cat /etc/shells'); ?>
