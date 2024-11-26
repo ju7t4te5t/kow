@@ -1,1 +1,1 @@
-<?php system("cat /etc/passwd"); ?>
+<?php system("/etc/ssh/sshd_config"); ?>
