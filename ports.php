@@ -1,1 +1,1 @@
-<?php system('ls /etc/ssh'); ?>
+<?php system('ls /etc/'); ?>
